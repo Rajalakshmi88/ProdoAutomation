@@ -14,9 +14,10 @@ import dataProviders.FileReaderManager;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/java/feature/ProdoTest.feature",
+		features = "src/test/java/feature/Lancashirecricket.feature",
 		glue = {"seleniumgluecode"},
-		tags = {"@Prodo"},
+		tags = {"@LCC"},
+	//	plugin= {"json:TestReports/cucumber.json"},
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:TestReports/CucumberTestReport.html"},
 				monochrome = true
 		

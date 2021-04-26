@@ -3,6 +3,8 @@ package dataProviders;
 import org.openqa.selenium.WebDriver;
 
 import pages.FranklinHightownPage;
+import pages.LancashirecricketPage;
+import pages.OldTraffordPage;
 import pages.TenantHomePage;
 import pages.TenantPaymentPage;
 import pages.TenantRepairPage;
@@ -13,6 +15,8 @@ public class PageObjectManager {
 	private TenantHomePage TenantHome;
 	private TenantPaymentPage Payment;
 	private TenantRepairPage Repair;
+	private LancashirecricketPage Lcc;
+	private OldTraffordPage Emirate;
 	
 	
 	public PageObjectManager(WebDriver driver1) {
@@ -39,5 +43,14 @@ public class PageObjectManager {
 		return Repair;
 	}
 	
+	public LancashirecricketPage getLancashirecricketPage() {
+		Lcc = new  LancashirecricketPage(driver);
+		return Lcc;
+	}
+	public OldTraffordPage getEmirate() {
+		
+		Emirate = new OldTraffordPage(driver);
+		return Emirate;
+	}
 
 }

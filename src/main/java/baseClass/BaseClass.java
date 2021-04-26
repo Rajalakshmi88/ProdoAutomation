@@ -74,10 +74,10 @@ public class BaseClass {
 	
 	//Method to get the mouse actions
 	public static void MoveToElement(WebElement element) {
-		WaitForElementvisibility(element);
+		//WaitForElementvisibility(element);
 		try {
 		Actions Act = new Actions(driver);
-		Act.moveToElement(element).click().perform();
+		Act.moveToElement(element).build().perform();
 		}catch(Exception e) {
 			e.printStackTrace();
 		}

@@ -1,0 +1,222 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11427100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProdoTest.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Test the Franklin",
+        "description": "",
+        "id": "test-franklin;test-the-franklin;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 61100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProdoTest.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6000237200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the Franklin Application",
+            "match": {
+              "location": "ProdoTest.Launch_the_Franklin_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1176032400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter username \"tenant@prodo.com\" and password \"Digital2020!\" to login into tenant profile",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tenant@prodo.com",
+                  "offset": 16
+                },
+                {
+                  "val": "Digital2020!",
+                  "offset": 48
+                }
+              ],
+              "location": "ProdoTest.enter_username_something_and_password_something_to_login_into_tenant_profile(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4112148700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Account to view Account details",
+            "match": {
+              "location": "ProdoTest.click_on_account_to_view_account_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 372949800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Make payment button to make a payment for House",
+            "match": {
+              "location": "ProdoTest.click_on_make_payment_button_to_make_a_payment_for_house()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5869682400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Go to Payment Page and enter Customer Reference \"Cust123\" and Amount \"1002\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cust123",
+                  "offset": 49
+                },
+                {
+                  "val": "1002",
+                  "offset": 70
+                }
+              ],
+              "location": "ProdoTest.go_to_payment_page_and_enter_customer_reference_something_and_amount_something(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1314631100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Next button to complete the Payment",
+            "match": {
+              "location": "ProdoTest.click_next_button_to_complete_the_payment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1408681400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Repairs option in Home Page",
+            "match": {
+              "location": "ProdoTest.click_repairs_option_in_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2163136800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Report Repair button to log the repair",
+            "match": {
+              "location": "ProdoTest.click_report_repair_button_to_log_the_repair()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94225500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click the Bathroom option",
+            "match": {
+              "location": "ProdoTest.click_the_bathroom_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 215096400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Toilet Option",
+            "match": {
+              "location": "ProdoTest.click_toilet_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108483600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click Toilet is leaking Option",
+            "match": {
+              "location": "ProdoTest.click_toilet_is_leaking_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 586240000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click Cistern Option and Submit the Repair",
+            "match": {
+              "location": "ProdoTest.click_cistern_option_and_submit_the_repair()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Prodo"
+          }
+        ]
+      }
+    ],
+    "name": "Test Franklin",
+    "description": "",
+    "id": "test-franklin",
+    "keyword": "Feature",
+    "uri": "src/test/java/feature/ProdoTest.feature"
+  }
+]
